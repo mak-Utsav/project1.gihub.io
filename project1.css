@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+}
+
+.nav {
+    float: right;
+    margin-top: 15px;
+    font-size: 24px;
+    padding: 5px 15px 5px 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 30%; 
+}
+
+.nav a {
+    border: black solid 2px;
+    color: black;
+    padding: 5px 5px 5px 5px;
+}
+
+.nav a:hover {
+    background-color: white;
+}
+
+.heading h1 {
+    font-family: 'lobster', 'monospace';
+    margin-left: 15px;
+}
+
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+section .content {
+    text-align: center;
+}
+
+section .content h2 {
+    font-size: 18vw;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1em;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-attachment: fixed;
+}
+
+section:nth-child(1) .content h2 {
+    background-image: url(India.jpg);
+}
+
+section:nth-child(2) .content h2 {
+    background-image: url(Poland.jpg);
+}
+
+section:nth-child(3) .content h2 {
+    background-image: url(Italy.jpg);
+}
+
+section:nth-child(4) .content h2 {
+    background-image: url(Ukraine.jpg);
+}
+
+
+
+section .content p {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    font-size: 35px;
+}
+
+section .content a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+
